@@ -4,12 +4,12 @@ class Counter extends ChangeNotifier {
   int counter = 0;
 
   void increment() {
-    counter++;
+    counter ++;
     notifyListeners();
   }
 
   void decrement() {
-    counter--;
+    counter --;
     notifyListeners();
   }
 }
